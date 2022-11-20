@@ -23,6 +23,14 @@ body {
     cursor: pointer;
 }
 
+a{
+    color: #fff;
+}
+
+h1{
+    line-height: 1.4;
+}
+
 .screen {
     display: flex;
     flex-direction: column;
@@ -30,6 +38,22 @@ body {
     justify-content: center;
     height: 100vh;
     width: 100vw;
+}
+
+.screen.up {
+    margin-top: -200vh;
+}
+
+.insects-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.insects-list li {
+    margin: 10px;
 }
 
 .btn:hover {
@@ -40,8 +64,27 @@ body {
     outline: 0;
 }
 
-.choose-insects img{
+.choose-insect-btn {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    font-family: inherit;
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+}
+
+.choose-insect-btn img{
     width: 100px;
     height: 100px;
     object-fit: contain;
+}
+
+.choose-insect-btn:hover {
+    background-color: #fff;
+    color: #516dff;
+}
+
+.choose-insect-btn:active{
+    background-color: rgba(255, 255, 255, 0.7);
 }
