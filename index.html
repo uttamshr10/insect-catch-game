@@ -4,12 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Insect Catch Game</title>
+    <title>Catch The Insect</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="screen">
+        <h1>Catch the Insect</h1>
+        <button class="btn" id="start-game">Play Game</button>
+    </div>
+
+    <!-- Selection of insect section -->
+    <div class="screen">
+        <h1>What is your "favorite" insect?</h1>
+        <ul class="insects-list">
+            <li>
+                <button class="choose-insects">
+                    <p>Fly</p>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9P-ywUeoBe55LXkYVs4IoWC_P9J9ewOeZTVW_zjyv&s" alt="fly">
+                </button>
+            </li>
+
+        </ul>
+    </div>
+
+    <div class="screen" id="game-container">
+        <h3 id="time">Time: 00:00</h3>
+        <h3 id="score">Score: 0</h3>
+        <h5 id="message">
+            Are you annoyed yet?<br>
+            You are playing an impossible game!!
+        </h5>
+    </div>
 </body>
 <script src="script.js"></script>
 </html>
