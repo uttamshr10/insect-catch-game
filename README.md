@@ -20,7 +20,17 @@ git@github.com:uttamshr10/insect-catch-game.git
 ```
 2. Open live server to view this project.
 
+<p align="center"><b>Catch the insect</b></p>
 
+![Catch the Insect](images/first-page.png)
+
+<p align="center"><b>Select Insect</b></p>
+
+![Select Insect](images/second-page.png)
+
+<p align="center"><b>Main Page</b></p>
+
+![Main page](images/third-page.png)
 
 
 [Live Demo](https://uttamshr10.github.io/insect-catch-game/)
